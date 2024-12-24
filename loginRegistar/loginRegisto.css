@@ -1,0 +1,306 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.body {
+  background-image: url("../images/login.png");
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+  -moz-filter: blur(4px);
+  -o-filter: blur(4px);
+  -ms-filter: blur(4px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: top, center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 46%;
+}
+
+.login {
+  background-color: #fff;
+  background-color: rgba(175, 175, 175, 0.8);
+color: black;
+font-weight: bold;
+position: absolute;
+bottom: 30%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 2;
+width: 30%;
+padding: 20px;
+text-align: left;
+border-radius: 10px;
+-webkit-box-shadow: 7px 7px 40px -25px rgb(166 166 166);
+-moz-box-shadow: 7px 7px 40px -25px rgba(166, 166, 166, 1);
+box-shadow: 7px 7px 40px -25px rgb(166 166 166);
+}
+
+.login h2{
+  color: black;
+  text-align: center;
+  font-weight: normal;
+}
+
+.loginDiv {
+
+  margin:0 auto;
+  width: 95%;
+}
+.login .input {
+  width: 100%;
+  padding-bottom: 5px;
+  
+}
+
+.login .formInput {
+  width: 100%;
+  padding-left: 10px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  
+}
+
+.login .botao {
+  padding-top: 10px;
+  text-align: center;
+  height:70px;
+}
+
+.login .btn {
+  width: 30%;
+  border-radius: 30px;
+  background-color: rgb(31, 31, 31);
+  color: white;
+  height:50px;
+  border: none;
+}
+
+.login label {
+  font-weight: normal;
+  font-size: 15px;
+}
+.login .erro {
+  color:red;
+  font-size: 15px;
+  text-align:left;
+  height: 2%;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.login .entrar{
+  font-weight: normal;
+  text-align: center;
+}
+.login .mp{
+  font-size: 13px;
+  vertical-align: middle;
+}
+.login .showPass{
+  vertical-align: middle;
+  margin:0px;
+}
+
+@media screen and (max-width: 1351px) {
+
+  .login {
+
+    width: 40%;
+    bottom: 30%;
+  }
+}
+@media screen and (max-width: 1091px) {
+
+  .login {
+    bottom: 40%;
+  }
+
+ 
+
+}
+@media screen and (max-width: 903px) {
+
+  .login {
+    width: 50%;
+    bottom: 45%;
+  }
+}
+@media screen and (max-width: 736px) {
+
+  .login {
+    width: 100%;
+    bottom: 25%;
+  }
+}
+
+
+
+.registar {
+  background-color: #fff;
+    background-color: rgba(175, 175, 175, 0.8);
+  color: black;
+  font-weight: bold;
+  position: absolute;
+  bottom: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 30%;
+  padding: 20px;
+  text-align: left;
+  border-radius: 10px;
+  -webkit-box-shadow: 7px 7px 40px -25px rgb(166 166 166);
+  -moz-box-shadow: 7px 7px 40px -25px rgba(166, 166, 166, 1);
+  box-shadow: 7px 7px 40px -25px rgb(166 166 166);
+}
+
+.registar h2{
+  color: black;
+  text-align: center;
+  font-weight: normal;
+}
+
+.registo {
+
+  margin:0 auto;
+  width: 95%;
+}
+.registo .input {
+  width: 49%;
+  display: inline-block;
+  padding-bottom: 5px;
+  
+}
+.registo .inputMail {
+  width: 98%;
+  padding-bottom: 5px;
+  margin:0 auto;
+}
+.registo .formInput {
+  width: 100%;
+  padding-left: 10px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  
+}
+.registo .botao {
+  padding-top: 20px;
+  text-align: center;
+  height:70px;
+}
+
+.registo .btn {
+  width: 30%;
+  border-radius: 30px;
+  background-color: rgb(31, 31, 31);
+  color: white;
+  height:50px;
+  border: none;
+}
+.btn:hover {
+  background-color: rgb(63, 63, 63);
+}
+
+
+
+.registo label {
+  font-weight: normal;
+  font-size: 15px;
+}
+
+
+.registo .erro {
+  color:red;
+  font-size: 15px;
+  text-align:left;
+  height: 2%;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.registo .entrar{
+  font-weight: normal;
+  text-align: center;
+}
+
+@media screen and (max-width: 1351px) {
+
+  .registar {
+
+    width: 60%;
+    bottom: 22%;
+  }
+  .body {
+    padding-bottom: 60%;
+  }
+}
+
+@media screen and (max-width: 1092px) {
+
+  .registar {
+    bottom: 21%;
+    
+  }
+  
+}
+@media screen and (max-width: 1091px) {
+
+  .registar {
+    bottom: 29%;
+    
+  }
+  .body {
+    height: 100%;
+    padding-bottom: 80%;
+  }
+  
+}
+
+@media screen and (max-width: 900px) {
+
+  .registar {
+    bottom: 35%;
+    
+  }
+  
+  
+}
+@media screen and (max-width: 736px) {
+
+  .registar {
+    bottom: 15%;
+    width: 100%;
+    
+  }
+  #footer{
+    display: none;
+  }
+  .body {
+    padding-bottom: 900px;
+  }
+  .registo label {
+    font-weight: normal;
+    font-size: 13px;
+  }
+  
+  
+}
+@media screen and (max-width: 330px) {
+
+  
+  .registo label {
+    font-weight: normal;
+    font-size: 11px;
+  }
+  
+  
+}
+
+
